@@ -1,0 +1,1 @@
+ffmpeg -i mgm_music.wav -ar 16000 -acodec pcm_u8 -f u8 mgm_music.raw
